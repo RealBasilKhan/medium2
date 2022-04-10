@@ -20,7 +20,10 @@ function Header() {
           </h3>
         </div>
       </div>
-      <div></div>
+      <div className="flex items-center space-x-5">
+        <h3>Sign In</h3>
+        <h3>Get Started</h3>
+      </div>
     </header>
   )
 }
